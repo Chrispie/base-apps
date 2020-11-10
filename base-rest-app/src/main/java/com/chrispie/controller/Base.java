@@ -10,6 +10,6 @@ public class Base {
 
     @GetMapping("/")
     public String retrieveCustomer() {
-        throw new RuntimeException("Hallo there");
+        return "Hallo there";
     }
 }
